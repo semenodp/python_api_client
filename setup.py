@@ -9,7 +9,7 @@ Created on Mar 18, 2015
 from setuptools import setup
 
 setup(
-    name="calcbench_api_client",
+    name="clone_calcbench_api_client",
     version="3.1.0",
     description="Client for Calcbench data.",
     author="Andrew Kittredge",
@@ -28,6 +28,6 @@ setup(
         "Listener": ["azure-servicebus==7.0.0b5"],
         "Backoff": ["backoff"],
     },
-    url="https://github.com/calcbench/python_api_client",
+    url="https://github.com/semenodp/python_api_client",
     long_description="A client for Calcbench's API.  www.calcbench.com/api.  If you need Python 2 support install version 2.4.0",
 )
