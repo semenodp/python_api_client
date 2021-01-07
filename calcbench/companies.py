@@ -75,8 +75,8 @@ def companies(
     )
 
     companies = pd.DataFrame(companies)
-    for column in ["first_filing", "most_recent_filing", "most_recent_full_year_end"]:
-        companies[column] = pd.to_datetime(companies[column], errors="coerce")
+    # for column in ["first_filing", "most_recent_filing", "most_recent_full_year_end"]:
+    #     companies[column] = pd.to_datetime(companies[column], errors="coerce")
     return companies
 
 
